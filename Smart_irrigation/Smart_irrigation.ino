@@ -102,7 +102,7 @@ void loop() {
   display.println(" %");
 
   display.setCursor(80, 45);
-  display.print(pumpState ? "ON" : "OFF");
+  display.print(pumpState ? "PUMP ON" : "PUMP OFF");
 
   display.display();
 
